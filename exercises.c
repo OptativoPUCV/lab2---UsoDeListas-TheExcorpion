@@ -48,7 +48,7 @@ List* crea_lista()
     {
       int* dato = (int*)malloc(sizeof(int));
       *dato = i;
-      pushBack(L, dato);
+      pushBack(L, dato); //del 1 al 10 solo porque dice en el ejercio. pushFront igual sirve;
     }
   return L;
 }
