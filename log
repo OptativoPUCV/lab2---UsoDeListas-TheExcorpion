@@ -96,3 +96,17 @@ exercises.c:132:15: error: invalid use of incomplete typedef ‘Stack’ {aka �
       |               ^~
 Compilation failed
 47a1edb
+Mon 25 Mar 2024 12:51:19 AM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:132:15: error: invalid use of incomplete typedef ‘Stack’ {aka ‘List’}
+  132 |           if(P->top == NULL)
+      |               ^~
+exercises.c:139:1: error: control reaches end of non-void function [-Werror=return-type]
+  139 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+e819cf4
